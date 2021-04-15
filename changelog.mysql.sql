@@ -1,7 +1,7 @@
 --liquibase formatted sql
 
---changeset denis:1
-create table test1(
+--changeset denis:3
+create table test3(
 id int primary key,
 name varchar(255)
 );

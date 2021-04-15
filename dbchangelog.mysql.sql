@@ -1,8 +1,11 @@
 -- liquibase formatted sql
 
--- changeset duart:1618494189961-1
-CREATE TABLE directors (director_id INT NULL, first_name VARCHAR(40) NULL, last_name VARCHAR(40) NULL, country VARCHAR(80) NULL);
+-- changeset duart:1618517219539-1
+CREATE TABLE test1 (id INT NOT NULL, name VARCHAR(255) NULL, CONSTRAINT PK_TEST1 PRIMARY KEY (id));
 
--- changeset duart:1618494189961-2
-CREATE TABLE movies (movie_id INT NULL, title VARCHAR(120) NULL, year_released INT NULL, director_id INT NULL, money_earned DOUBLE NULL);
+-- changeset duart:1618517219539-2
+CREATE TABLE test2 (id INT NOT NULL, name VARCHAR(255) NULL, CONSTRAINT PK_TEST2 PRIMARY KEY (id));
+
+-- changeset duart:1618517219539-3
+CREATE TABLE test3 (id INT NOT NULL, name VARCHAR(255) NULL, CONSTRAINT PK_TEST3 PRIMARY KEY (id));
 
